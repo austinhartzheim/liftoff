@@ -1,0 +1,38 @@
+body {
+    background: black;
+    color: white;
+
+    font-family: 'Droid Sans','Century Schoolbook', sans-serif;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.countdown .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.countdown .title h2 {
+    font-weight: normal;
+}
+.countdown .percent {
+    font-size: large;
+}
+
+.progress {
+    padding: 3px;
+    /*border-radius: 13px;*/
+    border: 1px solid white;
+}
+.progress > div {
+    background-color: white;
+    height: 20px;
+    /*border-radius: 10px;*/
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
