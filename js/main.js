@@ -1,6 +1,6 @@
-var tickapp = angular.module('tickapp', []);
+var liftoff = angular.module('liftoff', []);
 
-tickapp.controller('CountdownListController', function CountdownListController($scope, $interval) {
+liftoff.controller('CountdownListController', function CountdownListController($scope, $interval) {
     // Create an update loop; exit if we already have one
     var update_loop;
     if (angular.isDefined(update_loop)) {
